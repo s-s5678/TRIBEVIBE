@@ -1,5 +1,6 @@
 
-# **TRIBE VIBE** E- marketplace for tribals
+# **TRIBE VIBE** 
+### E- marketplace for tribals
 ### **A brief summary** 
 This website is built as a submission project for the Hack with CW hackathon. This website is made in accordance to the rules of hackathon.
 ### **DOMAIN**

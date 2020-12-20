@@ -23,7 +23,7 @@ Contact Us Page
 It allows users to view our contact details and enables them to mail us their queries.
 
 ### **CONTRIBUTORS**
-    -**TEAM MAUVE**
-    -*Saily Samanta*
-    -*Sai Vanshika*
-    -*Muskan (Leader)*
+    - **TEAM MAUVE**
+    - *Saily Samanta*
+    - *Sai Vanshika*
+    - *Muskan (Leader)*

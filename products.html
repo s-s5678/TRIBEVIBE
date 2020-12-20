@@ -1,0 +1,1135 @@
+<!DOCTYPE html> <!-- HTML Format -->
+<html>
+    <head>
+
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = " width = device-width inital-scale = 1 shrink-to-fit = no">
+        <title>Products Page | Tribe</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+<!-- Optional theme -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=Itim&family=Noto+Sans:ital,wght@0,400;1,700&family=Syne+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap">
+  <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+        <link rel="stylesheet" href="css/mdb-pro.min.css">
+  <!-- Material Design Bootstrap Ecommerce -->
+        <link rel="stylesheet" href="css/mdb.ecommerce.min.css">
+        <style>
+        ul#menu li {
+          display:inline;
+        }
+        .navbar-dark {
+        background-color: #512DA8;
+        }
+        </style>
+    </head>
+    <body>
+            <!-- <div id="menu">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top>
+          <div class="container">
+            <a class="navbar-brand" href="#">MUSK</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <div class="floatleft">
+                  <li class="nav-item active"><a class="nav-link" href="./index.html">Home</a></li>
+                  <li class="nav-item active"><a class="nav-link" href="./products.html">Products</a></li>
+                  <li class="nav-item active"><a class="nav-link" href="./categoty.html">Category</a></li>
+                  <li class="nav-item active"><a class="nav-link" href="./about_us.html">About Us</a></li>
+                  <li class="nav-item active"><a class="nav-link" href="./cartpage.html">Cart</a></li>
+                  <li class="nav-item active"><a class="nav-link" href="./contact_us.html">Contact Us</a></li>
+                </div>
+                <div class="floatright">
+                  <li class="nav-item active"><a class="nav-link" href="./search.html">Search</a></li>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div> -->
+      <nav class="navbar navbar-dark navbar-expand-sm fixed-top color-grey">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggle-icon"></span>
+            </button>
+            <a class="navbar-brand mr-auto" href="#"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/383px-Flag_of_India.svg.png" height="30" width="41"></a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="./mainpage (2).html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./blog.html"><span class="fa fa-newspaper fa-lg"></span> Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./products.html"><span class="fa fa-list fa-lg"></span> Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./cartpage.html"><span class="fa fa-shopping-cart fa-lg"></span> Cart</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./con1.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./search.html"><span class="fa fa-info fa-lg"></span> Search</a></li>
+                </ul>
+                <span class="navbar-text">
+                    <a data-toggle="modal" data-target="#loginModal">
+                    <span class="fa fa-sign-in"></span> Login</a>
+                </span>
+            </div>
+                
+        </div>
+    </nav>
+      <section class="products py-5 my-5" id="products">
+          <div class="container ">
+          <div class="section_title text-floatleft mb-5">
+          <h1 class="text-capitalize">Naturals</h1>
+          </div>
+          <!-- <div class="row">
+          <div class="col-md-3 border-right mb-small-5">
+          <h4 class="mb-5 border-bottom">Filters</h4>
+          <div class="mb-5">
+          <label><b>Category</b></label>
+          <ul class="list-group">
+          <li class="list-group-item">Accessories</li>
+          <li class="list-group-item">Skirts</li>
+          <li class="list-group-item">Jackets</li>
+          <li class="list-group-item">Dresses</li>
+          <li class="list-group-item">Winterwear</li>
+          <li class="list-group-item">Shirts</li>
+          </ul>
+          </div>
+          <div>
+          <form>
+          <div class="form-group">
+          <label><b>Price</b></label>
+          <input type="range" min="100" max="1000" step="100"
+          class="form-control-range">
+          </div>
+          </form>
+          <div class="d-flex justify-content-between">
+          <label>₹100</label>
+          <label>₹1000</label>
+          </div>
+          </div>
+          </div> -->
+          <div class="col-md">
+          <div class="row mb-5">
+          <div class="col-md-3 col-12">
+          <div class="single_product shadow text-center p-1">
+          <div class="product_img">
+          <a href="product_detail.html"><img
+          src="https://cdn.shopify.com/s/files/1/0249/4503/3279/products/14987979561238003714_540x.jpg?v=1605261939" class="img img-fluid"
+          alt="" width="250px"></a>
+          </div>
+          <div class="product-caption my-3">
+          <div class="product-ratting">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          </div>
+          <h5><a href="product_detail.html">Freshly ground Turmeric</a></h5>
+          <div class="price">
+          <b><span class="mr-1">₹</span><span>350</span></b>
+          </div>
+          </div>
+          </div>
+          </div>
+          <div class="col-md-3 col-12">
+          <div class="single_product shadow text-center p-1 mt-small-5
+          mb-small-5">
+          <div class="product_img">
+          <a href="product_detail.html"><img
+          src="https://www.sundarbanshoney.com/assets/images/sundarban-honey-500x500.jpg" class="img img-fluid"
+          alt="" width="240px"></a>
+          <div class="new_product">
+          <span class="badge py-2 px-3 badge-pill
+          badge-danger">New</span>
+          </div>
+          </div>
+          <div class="product-caption my-3">
+          <div class="product-ratting">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          </div>
+          <h5><a href="product_detail.html">Pure honey</a></h5>
+          <div class="price">
+          <b><span class="mr-1">₹</span><span>250</span></b>
+          </div>
+          </div>
+          </div>
+          </div>
+          <div class="col-md-3 col-12">
+          <div class="single_product shadow text-center p-1 mt-small-5
+          mb-small-5">
+          <div class="product_img">
+          <a href="product_detail.html"><img
+          src="https://www.kodaiherbal.com/image/cache/catalog/Hills%20Eatable%20/Spices/SP_26-02_2048x-450x463.jpg" class="img img-fluid"
+          alt="" width="240px"></a>
+          <div class="new_product">
+          <span class="badge py-2 px-3 badge-pill
+          badge-danger">New</span>
+          </div>
+          </div>
+          <div class="product-caption my-3">
+          <div class="product-ratting">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          </div>
+          <h5><a href="product_detail.html">Star anise</a></h5>
+          <div class="price">
+          <b><span class="mr-1">₹</span><span>425</span></b>
+          </div>
+          </div>
+          </div>
+          </div>
+          <div class="col-md-3 col-12">
+          <div class="single_product shadow text-center p-1">
+          <div class="product_img">
+          <a href="product_detail.html"><img
+          src="https://img3.exportersindia.com/product_images/bc-full/2019/7/6257589/cold-pressed-virgin-coconut-oil-1562233289-4983318.jpeg" class="img img-fluid"
+          alt="" width="250px"></a>
+          <div class="new_product">
+          <span class="badge py-2 px-3 badge-pill
+          badge-danger">New</span>
+          </div>
+          </div>
+          <div class="product-caption my-3">
+          <div class="product-ratting">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          </div>
+          <h5><a href="product_detail.html">Unadulterated Coconut Oil</a></h5>
+          <div class="price">
+          <b><span class="mr-1">₹</span><span>480</span></b>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+
+
+          </div>
+          <div class="section_title text-floatleft mb-5">
+          <h1 class="text-capitalize">Textiles</h1>
+          </div>
+          <div class="row">
+          <div class="col-md-3 col-12">
+          <div class="single_product shadow text-center p-1">
+          <div class="product_img">
+          <a href="product_detail.html"><img
+          src="https://www.sahapedia.org/sites/default/files/styles/sp_page_banner_800x800/public/Bastar_474.jpg?itok=dDlZRLEH" class="img img-fluid"
+          alt="" width="250px"></a>
+          <div class="new_product">
+          <span class="badge py-2 px-3 badge-pill
+          badge-danger">New</span>
+          </div>
+          </div>
+          <div class="product-caption my-3">
+          <div class="product-ratting">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          </div>
+          <h5><a href="product_detail.html">Ivory textiles of Bhavnani</a></h5>
+          <div class="price">
+          <b><span class="mr-1">₹</span><span>1300</span></b>
+          </div>
+          </div>
+          </div>
+          </div>
+          <div class="col-md-3 col-12">
+          <div class="single_product shadow text-center p-1 mt-small-5
+          mb-small-5">
+          <div class="product_img">
+          <a href="product_detail.html"><img
+          src="https://www.jozan.net/wp-content/uploads/2011/02/51.jpg" class="img img-fluid"
+          alt="" width="190px"></a>
+          <div class="new_product">
+          <span class="badge py-2 px-3 badge-pill
+          badge-danger">New</span>
+          </div>
+          </div>
+          <div class="product-caption my-3">
+          <div class="product-ratting">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          </div>
+          <h5><a href="product_detail.html">African tribal textiles</a></h5>
+          <div class="price">
+          <b><span class="mr-1">₹</span><span>5200</span></b>
+          </div>
+          </div>
+          </div>
+          </div>
+          <div class="col-md-3 col-12">
+          <div class="single_product shadow text-center p-1">
+          <div class="product_img">
+          <a href="product_detail.html"><img
+          src="https://i.pinimg.com/originals/b5/55/03/b555037dc2ea31f24fe4ab90bb85d0db.jpg" class="img img-fluid"
+          alt="" width="220px"></a>
+          <!-- <div class="new_product">
+          <span class="badge py-2 px-3 badge-pill
+          badge-danger">New</span>
+          </div> -->
+          </div>
+          <div class="product-caption my-3">
+          <div class="product-ratting">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          </div>
+          <h5><a href="product_detail.html">Naga Shawls</a></h5>
+          <div class="price">
+          <b><span class="mr-1">₹</span><span>1600</span></b>
+          </div>
+          </div>
+          </div>
+          </div>
+          <div class="col-md-3 col-12">
+          <div class="single_product shadow text-center p-1 mt-small-5
+          mb-small-5">
+          <div class="product_img">
+          <a href="product_detail.html"><img
+          src="https://images.squarespace-cdn.com/content/v1/555f823ae4b07f0c9545fb48/1435278487256-ANRR4LALM72XSLVYDMD2/ke17ZwdGBToddI8pDm48kKYUdLKwNwykpE1WHFGfdsIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8PaoYXhp6HxIwZIk7-Mi3Tsic-L2IOPH3Dwrhl-Ne3Z2JtXQgFQo-z8IsmArfmU1M39VhdJoCeddu7FIQL6bjRZm0nepH0bYFh4DTA4Bp5g2/bolivia04068_60mb8bit.jpg?format=500w" class="img img-fluid"
+          alt="" width="170px"></a>
+          <div class="new_product">
+          <span class="badge py-2 px-3 badge-pill
+          badge-danger">New</span>
+          </div>
+          </div>
+          <div class="product-caption my-3">
+          <div class="product-ratting">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          </div>
+          <h5><a href="product_detail.html">Multi-thread La Paz</a></h5>
+          <div class="price">
+          <b><span class="mr-1">₹</span><span>3500</span></b>
+          </div>
+          </div>
+          </div>
+          </div>
+
+          <div class="section_title text-floatleft mb-5">
+            <h1 class="text-capitalize">Metal Crafts</h1>
+            </div>
+            <div class="row">
+          <div class="col-md-3 col-12">
+            <div class="single_product shadow text-center p-1">
+            <div class="product_img">
+            <a href="product_detail.html"><img
+            src="https://images-na.ssl-images-amazon.com/images/I/718Zh%2BeehvL._SL1000_.jpg" class="img img-fluid"
+            alt="" width="230px"></a>
+            <div class="new_product">
+            <span class="badge py-2 px-3 badge-pill
+            badge-danger">New</span>
+            </div>
+            </div>
+            <div class="product-caption my-3">
+            <div class="product-ratting">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            </div>
+            <h5><a href="product_detail.html">Dresses</a></h5>
+            <div class="price">
+            <b><span class="mr-1">₹</span><span>900</span></b>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-3 col-12">
+              <div class="single_product shadow text-center p-1">
+              <div class="product_img">
+              <a href="product_detail.html"><img
+              src="https://www.new-guinea-tribal-arts.com/wp-content/uploads/2018/05/Kota-Gabon.jpg" class="img img-fluid"
+              alt="" width="150px"></a>
+              <div class="new_product">
+              <span class="badge py-2 px-3 badge-pill
+              badge-danger">New</span>
+              </div>
+              </div>
+              <div class="product-caption my-3">
+              <div class="product-ratting">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              </div>
+              <h5><a href="product_detail.html">New Guinea tribal arts</a></h5>
+              <div class="price">
+              <b><span class="mr-1">₹</span><span>1600</span></b>
+              </div>
+              </div>
+              </div>
+              </div>
+              <div class="col-md-3 col-12">
+                <div class="single_product shadow text-center p-1">
+                <div class="product_img">
+                <a href="product_detail.html"><img
+                src="https://i.pinimg.com/originals/c8/2e/5a/c82e5ac9fa19ff55180d4906a1a72924.png" class="img img-fluid"
+                alt="" width="170px"></a>
+                <div class="new_product">
+                <span class="badge py-2 px-3 badge-pill
+                badge-danger">New</span>
+                </div>
+                </div>
+                <div class="product-caption my-3">
+                <div class="product-ratting">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                </div>
+                <h5><a href="product_detail.html">Ancient Deity art</a></h5>
+                <div class="price">
+                <b><span class="mr-1">₹</span><span>1450</span></b>
+                </div>
+                </div>
+                </div>
+                </div>
+                <div class="col-md-3 col-12">
+                  <div class="single_product shadow text-center p-1">
+                  <div class="product_img">
+                  <a href="product_detail.html"><img
+                  src="https://www.tribalartantiques.com/wp-content/uploads/2020/05/Tibet.jpg" class="img img-fluid"
+                  alt="" width="240px"></a>
+                  <div class="new_product">
+                  <span class="badge py-2 px-3 badge-pill
+                  badge-danger">New</span>
+                  </div>
+                  </div>
+                  <div class="product-caption my-3">
+                  <div class="product-ratting">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  </div>
+                  <h5><a href="product_detail.html">Detailed silver tribal artwork</a></h5>
+                  <div class="price">
+                  <b><span class="mr-1">₹</span><span>2900</span></b>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  <div class="section_title text-floatleft mb-5">
+                    <h1 class="text-capitalize">Paintings</h1>
+                    </div>
+                    <div class="row">
+
+                  <div class="col-md-3 col-12">
+                    <div class="single_product shadow text-center p-1">
+                    <div class="product_img">
+                    <a href="product_detail.html"><img
+                    src="https://media.istockphoto.com/vectors/warli-tribal-art-8-vector-id534205508" class="img img-fluid"
+                    alt="" width="190px"></a>
+                    <div class="new_product">
+                    <span class="badge py-2 px-3 badge-pill
+                    badge-danger">New</span>
+                    </div>
+                    </div>
+                    <div class="product-caption my-3">
+                    <div class="product-ratting">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    </div>
+                    <h5><a href="product_detail.html">Warli art</a></h5>
+                    <div class="price">
+                    <b><span class="mr-1">₹</span><span>600</span></b>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="col-md-3 col-12">
+                      <div class="single_product shadow text-center p-1">
+                      <div class="product_img">
+                      <a href="product_detail.html"><img
+                      src="https://static2.tripoto.com/media/filter/tst/img/317498/TripDocument/1474741966_manjusha.jpg" class="img img-fluid"
+                      alt="" width="250px"></a>
+                      <div class="new_product">
+                      <span class="badge py-2 px-3 badge-pill
+                      badge-danger">New</span>
+                      </div>
+                      </div>
+                      <div class="product-caption my-3">
+                      <div class="product-ratting">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      </div>
+                      <h5><a href="product_detail.html">Rogan artworks</a></h5>
+                      <div class="price">
+                      <b><span class="mr-1">₹</span><span>1050</span></b>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+                      <div class="col-md-3 col-12">
+                        <div class="single_product shadow text-center p-1">
+                        <div class="product_img">
+                        <a href="product_detail.html"><img
+                        src="https://images.livemint.com/rf/Image-621x414/LiveMint/Period2/2017/12/23/Photos/Processed/tribalart1-kN--621x414@LiveMint.jpg" class="img img-fluid"
+                        alt="" width="250px"></a>
+                        <div class="new_product">
+                        <span class="badge py-2 px-3 badge-pill
+                        badge-danger">New</span>
+                        </div>
+                        </div>
+                        <div class="product-caption my-3">
+                        <div class="product-ratting">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        </div>
+                        <h5><a href="product_detail.html">Indigenous tribal arts</a></h5>
+                        <div class="price">
+                        <b><span class="mr-1">₹</span><span>1700</span></b>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="col-md-3 col-12">
+                          <div class="single_product shadow text-center p-1">
+                          <div class="product_img">
+                          <a href="product_detail.html"><img
+                          src="https://www.artzolo.com/sites/default/files/styles/blog/public/blog/images/cover_image_3.jpg" class="img img-fluid"
+                          alt="" width="250px"></a>
+                          <!-- <div class="new_product">
+                          <span class="badge py-2 px-3 badge-pill
+                          badge-danger">New</span>
+                          </div> -->
+                          </div>
+                          <div class="product-caption my-3">
+                          <div class="product-ratting">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          </div>
+                          <h5><a href="product_detail.html">Gond Tribal art</a></h5>
+                          <div class="price">
+                          <b><span class="mr-1">₹</span><span>2870</span></b>
+                          </div>
+                          </div>
+                          </div>
+                          </div>
+
+                          <div class="section_title text-floatleft mb-5">
+                            <h1 class="text-capitalize">Jewellery and Antique pieces</h1>
+                            </div>
+                            <div class="row"> 
+                          <div class="col-md-3 col-12">
+                            <div class="single_product shadow text-center p-1">
+                            <div class="product_img">
+                            <a href="product_detail.html"><img
+                            src="https://i.etsystatic.com/16596505/r/il/656306/2049604003/il_570xN.2049604003_5lvo.jpg" class="img img-fluid"
+                            alt="" width="245px" height="190px"></a>
+                            <!-- <div class="new_product">
+                            <span class="badge py-2 px-3 badge-pill
+                            badge-danger">New</span>
+                            </div> -->
+                            </div>
+                            <div class="product-caption my-3">
+                            <div class="product-ratting">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            </div>
+                            <h5><a href="product_detail.html">Hansuli Tribal neckpiece</a></h5>
+                            <div class="price">
+                            <b><span class="mr-1">₹</span><span>420</span></b>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="col-md-3 col-12">
+                              <div class="single_product shadow text-center p-1">
+                              <div class="product_img">
+                              <a href="product_detail.html"><img
+                              src="https://cdn.shopify.com/s/files/1/1860/6331/products/anklets-rigid-stacked_2000x.jpg?v=1496907267" class="img img-fluid"
+                              alt="" width="265px"></a>
+                              <div class="new_product">
+                              <span class="badge py-2 px-3 badge-pill
+                              badge-danger">New</span>
+                              </div>
+                              </div>
+                              <div class="product-caption my-3">
+                              <div class="product-ratting">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="far fa-star"></i>
+                              <i class="far fa-star"></i>
+                              </div>
+                              <h5><a href="product_detail.html">The plated tribal anklets</a></h5>
+                              <div class="price">
+                              <b><span class="mr-1">₹</span><span>700</span></b>
+                              </div>
+                              </div>
+                              </div>
+                              </div>
+                              <div class="col-md-3 col-12">
+                                <div class="single_product shadow text-center p-1">
+                                <div class="product_img">
+                                <a href="product_detail.html"><img
+                                src="https://i5a2y1wi06-flywheel.netdna-ssl.com/wp-content/uploads/Oman_Anklets_1_.jpg" class="img img-fluid"
+                                alt="" width="305px" height="190px"></a>
+                                <div class="new_product">
+                                <span class="badge py-2 px-3 badge-pill
+                                badge-danger">New</span>
+                                </div> 
+                                </div>
+                                <div class="product-caption my-3">
+                                <div class="product-ratting">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                </div>
+                                <h5><a href="product_detail.html">Ancient cuff-styled tribal bracelets</a></h5>
+                                <div class="price">
+                                <b><span class="mr-1">₹</span><span>920</span></b>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                <div class="col-md-3 col-12">
+                                  <div class="single_product shadow text-center p-1">
+                                  <div class="product_img">
+                                  <a href="product_detail.html"><img
+                                  src="https://i.etsystatic.com/10922959/r/il/bab15b/813738316/il_570xN.813738316_ifjh.jpg" class="img img-fluid"
+                                  alt="" width="255px"></a>
+                                  <div class="new_product">
+                                  <span class="badge py-2 px-3 badge-pill
+                                  badge-danger">New</span>
+                                  </div>
+                                  </div>
+                                  <div class="product-caption my-3">
+                                  <div class="product-ratting">
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="far fa-star"></i>
+                                  <i class="far fa-star"></i>
+                                  </div>
+                                  <h5><a href="product_detail.html">Vintage tribal bracelet</a></h5>
+                                  <div class="price">
+                                  <b><span class="mr-1">₹</span><span>320</span></b>
+                                  </div>
+                                  </div>
+                                  </div>
+                                  </div>
+                            </div>
+                            </div>
+                    </div>
+            </div>
+          </div>
+            </div>
+          </div>
+          </div>
+
+
+          <!-- <div class="col-md-3 col-12">
+          <div class="single_product shadow text-center p-1">
+          <div class="product_img">
+          <a href="product_detail.html"><img
+          src="https://images.squarespace-cdn.com/content/v1/555f823ae4b07f0c9545fb48/1435278487256-ANRR4LALM72XSLVYDMD2/ke17ZwdGBToddI8pDm48kKYUdLKwNwykpE1WHFGfdsIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8PaoYXhp6HxIwZIk7-Mi3Tsic-L2IOPH3Dwrhl-Ne3Z2JtXQgFQo-z8IsmArfmU1M39VhdJoCeddu7FIQL6bjRZm0nepH0bYFh4DTA4Bp5g2/bolivia04068_60mb8bit.jpg?format=500w" class="img img-fluid"
+          alt="" width="170px"></a>
+          </div>
+          <div class="product-caption my-3">
+          <div class="product-ratting">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          </div>
+          <h5><a href="product_detail.html">Shirts</a></h5>
+          <div class="price">
+          <b><span class="mr-1">₹</span><span>350</span></b>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          <div class="section_title text-floatleft mb-5">
+          <h1 class="text-capitalize">Textiles</h1>
+          </div>
+          <div class="row">
+          <div class="col-md-3 col-12">
+          <div class="single_product shadow text-center p-1">
+          <div class="product_img">
+          <a href="product_detail.html"><img
+          src="https://www.sahapedia.org/sites/default/files/styles/sp_page_banner_800x800/public/Bastar_474.jpg?itok=dDlZRLEH" class="img img-fluid"
+          alt="" width="250px"></a>
+          <div class="new_product">
+          <span class="badge py-2 px-3 badge-pill
+          badge-danger">New</span>
+          </div>
+          </div>
+          <div class="product-caption my-3">
+          <div class="product-ratting">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          </div>
+          <h5><a href="product_detail.html">Dresses</a></h5>
+          <div class="price">
+          <b><span class="mr-1">₹</span><span>900</span></b>
+          </div>
+          </div>
+          </div>
+          </div>
+          <div class="col-md-3 col-12">
+          <div class="single_product shadow text-center p-1 mt-small-5
+          mb-small-5">
+          <div class="product_img">
+          <a href="product_detail.html"><img
+          src="https://www.jozan.net/wp-content/uploads/2011/02/51.jpg" class="img img-fluid"
+          alt="" width="190px"></a>
+          <div class="new_product">
+          <span class="badge py-2 px-3 badge-pill
+          badge-danger">New</span>
+          </div>
+          </div>
+          <div class="product-caption my-3">
+          <div class="product-ratting">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          </div>
+          <h5><a href="product_detail.html">Winterwear</a></h5>
+          <div class="price">
+          <b><span class="mr-1">₹</span><span>700</span></b>
+          </div>
+          </div>
+          </div>
+          </div>
+          <div class="col-md-3 col-12">
+          <div class="single_product shadow text-center p-1">
+          <div class="product_img">
+          <a href="product_detail.html"><img
+          src="https://i.pinimg.com/originals/b5/55/03/b555037dc2ea31f24fe4ab90bb85d0db.jpg" class="img img-fluid"
+          alt="" width="220px"></a>
+          <div class="new_product">
+          <span class="badge py-2 px-3 badge-pill
+          badge-danger">New</span>
+          </div>
+          </div>
+          <div class="product-caption my-3">
+          <div class="product-ratting">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          </div>
+          <h5><a href="product_detail.html">Dresses</a></h5>
+          <div class="price">
+          <b><span class="mr-1">₹</span><span>900</span></b>
+          </div>
+          </div>
+          </div>
+          </div>
+          <div class="col-md-3 col-12">
+          <div class="single_product shadow text-center p-1">
+          <div class="product_img">
+          <a href="product_detail.html"><img
+          src="https://images.squarespace-cdn.com/content/v1/555f823ae4b07f0c9545fb48/1435278487256-ANRR4LALM72XSLVYDMD2/ke17ZwdGBToddI8pDm48kKYUdLKwNwykpE1WHFGfdsIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8PaoYXhp6HxIwZIk7-Mi3Tsic-L2IOPH3Dwrhl-Ne3Z2JtXQgFQo-z8IsmArfmU1M39VhdJoCeddu7FIQL6bjRZm0nepH0bYFh4DTA4Bp5g2/bolivia04068_60mb8bit.jpg?format=500w" class="img img-fluid"
+          alt="" width="170px"></a>
+          </div>
+          <div class="product-caption my-3">
+          <div class="product-ratting">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          </div>
+          <h5><a href="product_detail.html">Shirts</a></h5>
+          <div class="price">
+          <b><span class="mr-1">₹</span><span>350</span></b>
+          </div>
+          </div>
+          </div>
+          </div> -->
+          </div>
+          </div>
+
+          <!-- <div class="section_title text-floatleft mb-5">
+          <h1 class="text-capitalize">Textiles</h1>
+          </div>
+          <div class="row">
+          <div class="col-md-3 col-12">
+          <div class="single_product shadow text-center p-1">
+          <div class="product_img">
+          <a href="product_detail.html"><img
+          src="https://www.sahapedia.org/sites/default/files/styles/sp_page_banner_800x800/public/Bastar_474.jpg?itok=dDlZRLEH" class="img img-fluid"
+          alt="" width="250px"></a>
+          <div class="new_product">
+          <span class="badge py-2 px-3 badge-pill
+          badge-danger">New</span>
+          </div>
+          </div>
+          <div class="product-caption my-3">
+          <div class="product-ratting">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          </div>
+          <h5><a href="product_detail.html">Dresses</a></h5>
+          <div class="price">
+          <b><span class="mr-1">₹</span><span>900</span></b>
+          </div>
+          </div>
+          </div>
+          </div>
+          <div class="col-md-3 col-12">
+          <div class="single_product shadow text-center p-1 mt-small-5
+          mb-small-5">
+          <div class="product_img">
+          <a href="product_detail.html"><img
+          src="https://www.jozan.net/wp-content/uploads/2011/02/51.jpg" class="img img-fluid"
+          alt="" width="190px"></a>
+          <div class="new_product">
+          <span class="badge py-2 px-3 badge-pill
+          badge-danger">New</span>
+          </div>
+          </div>
+          <div class="product-caption my-3">
+          <div class="product-ratting">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          </div>
+          <h5><a href="product_detail.html">Winterwear</a></h5>
+          <div class="price">
+          <b><span class="mr-1">₹</span><span>700</span></b>
+          </div>
+          </div>
+          </div>
+          </div>
+          <div class="col-md-3 col-12">
+          <div class="single_product shadow text-center p-1">
+          <div class="product_img">
+          <a href="product_detail.html"><img
+          src="https://i.pinimg.com/originals/b5/55/03/b555037dc2ea31f24fe4ab90bb85d0db.jpg" class="img img-fluid"
+          alt="" width="220px"></a>
+          <div class="new_product">
+          <span class="badge py-2 px-3 badge-pill
+          badge-danger">New</span>
+          </div>
+          </div>
+          <div class="product-caption my-3">
+          <div class="product-ratting">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          </div>
+          <h5><a href="product_detail.html">Dresses</a></h5>
+          <div class="price">
+          <b><span class="mr-1">₹</span><span>900</span></b>
+          </div>
+          </div>
+          </div>
+          </div>
+          <div class="col-md-3 col-12">
+          <div class="single_product shadow text-center p-1 mt-small-5
+          mb-small-5">
+          <div class="product_img">
+          <a href="product_detail.html"><img
+          src="https://images.squarespace-cdn.com/content/v1/555f823ae4b07f0c9545fb48/1435278487256-ANRR4LALM72XSLVYDMD2/ke17ZwdGBToddI8pDm48kKYUdLKwNwykpE1WHFGfdsIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8PaoYXhp6HxIwZIk7-Mi3Tsic-L2IOPH3Dwrhl-Ne3Z2JtXQgFQo-z8IsmArfmU1M39VhdJoCeddu7FIQL6bjRZm0nepH0bYFh4DTA4Bp5g2/bolivia04068_60mb8bit.jpg?format=500w" class="img img-fluid"
+          alt="" width="190px"></a>
+          <div class="new_product">
+          <span class="badge py-2 px-3 badge-pill
+          badge-danger">New</span>
+          </div>
+          </div>
+          <div class="product-caption my-3">
+          <div class="product-ratting">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          </div>
+          <h5><a href="product_detail.html">Winterwear</a></h5>
+          <div class="price">
+          <b><span class="mr-1">₹</span><span>700</span></b>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div> -->
+        </div>
+          </section>
+                <section class="footer_section pt-5 pb-2" id="footer_section">
+        <!-- <footer>
+          <div class="container-fluid">
+          <div class="row">
+          <div class="col-md-3 col-6 pl-5 pl-small-15">
+          <div class="footer_title">
+          <a href="index.html"><img src="https://i.pinimg.com/564x/3a/84/49/3a8449f9b0b193adb864d782735f45b5.jpg" width="150px"
+          class="img img-fluid" alt="logo"></a>
+          </div>
+          <div>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, totam est
+          illum ipsum quas ad
+          dignissimos magni veritatis natus voluptatem.
+          </div>
+          </div>
+          <div class="col-md-3 col-6">
+          <div class="footer_title pt-3 mb-3">
+          <h3>Quick Links</h3>
+          </div>
+          <div class="footer_links">
+          <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="javascript:;">Offers & Discounts</a></li>
+          <li><a href="javascript:;">Get Coupon</a></li>
+          <li><a href="contact_us.html">Contact Us</a></li>
+          </ul>
+          </div>
+          </div>
+          <div class="col-md-3 col-6">
+          <div class="footer_title pt-3 mb-3">
+          <h3>New Products</h3>
+          </div>
+          <div class="footer_links">
+          <ul>
+          <li><a href="javascript:;">Woman Cloth</a></li>
+          <li><a href="javascript:;">Fashion Accessories</a></li>
+          <li><a href="javascript:;">Men's Accessories</a></li>
+          <li><a href="javascript:;">The hottest trends</a></li>
+          </ul>
+          </div>
+          </div>
+          <div class="col-md-3 col-6">
+          <div class="footer_title pt-3 mb-3">
+          <h3>Support</h3>
+          </div>
+          <div class="footer_links">
+          <ul>
+          <li><a href="javascript:;">Frequently Asked Questions</a></li>
+          <li><a href="javascript:;">Terms & Conditions</a></li>
+          <li><a href="javascript:;">Privacy Policy</a></li>
+          <li><a href="javascript:;">Report a Payment Issue</a></li>
+          </ul>
+          </div>
+          </div>
+          </div>
+          </div>
+          <div class="border-top">
+          <h6 class="text-center mt-3">Copyright ©2020 All rights reserved
+          </h6>
+          <h6 class="text-center mt-3"><A HREF="index.html">Go to the Home Page</A></h6>
+          </div>
+        </footer> -->
+        <footer class="page-footer font-small elegant-color">
+
+          <div class="color-primary">
+            <div class="container">
+      
+              <!-- Grid row-->
+              <div class="row py-4 d-flex align-items-center">
+      
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                  <h6 class="mb-0">Get connected with us on social networks!</h6>
+                </div>
+                <!-- Grid column -->
+      
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-7 text-center text-md-right">
+      
+                  <!-- Facebook -->
+                  <a class="fb-ic">
+                    <i class="fab fa-facebook-f white-text mr-4"> </i>
+                  </a>
+                  <!-- Twitter -->
+                  <a class="tw-ic">
+                    <i class="fab fa-twitter white-text mr-4"> </i>
+                  </a>
+                  <!-- Google +-->
+                  <a class="gplus-ic">
+                    <i class="fab fa-google-plus-g white-text mr-4"> </i>
+                  </a>
+                  <!--Linkedin -->
+                  <a class="li-ic">
+                    <i class="fab fa-linkedin-in white-text mr-4"> </i>
+                  </a>
+                  <!--Instagram-->
+                  <a class="ins-ic">
+                    <i class="fab fa-instagram white-text"> </i>
+                  </a>
+      
+                </div>
+                <!-- Grid column -->
+      
+              </div>
+              <!-- Grid row-->
+      
+            </div>
+          </div>
+      
+          <!-- Footer Links -->
+          <div class="container text-center text-md-left pt-4 pt-md-5">
+      
+            <!-- Grid row -->
+            <div class="row mt-1 mt-md-0 mb-4 mb-md-0">
+      
+              <!-- Grid column -->
+              <div class="col-md-3 mx-auto mt-3 mt-md-0 mb-0 mb-md-4">
+      
+                <!-- Links -->
+                <h5>About Us</h5>
+                <hr class="color-primary mb-4 mt-0 d-inline-block mx-auto w-60">
+      
+                <p class="foot-desc mb-0">This is an e-commercial website for the promotion of our tribal talent.</p>
+      
+              </div>
+              <!-- Grid column -->
+      
+              <hr class="clearfix w-100 d-md-none">
+      
+              <!-- Grid column -->
+              <div class="col-md-3 mx-auto mt-3 mt-md-0 mb-0 mb-md-4">
+      
+                <!-- Links -->
+                <h5>Products</h5>
+                <hr class="color-primary mb-4 mt-0 d-inline-block mx-auto w-60">
+      
+                <ul class="list-unstyled foot-desc">
+                  <li class="mb-2">
+                    <a href="products.html">Naturals</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="products.html">Textiles</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="products.html">Metal Crafts</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="products.html">Paintings</a>
+                  </li>
+                </ul>
+      
+              </div>
+              <!-- Grid column -->
+      
+              <hr class="clearfix w-100 d-md-none">
+      
+              <!-- Grid column -->
+              <div class="col-md-3 mx-auto mt-3 mt-md-0 mb-0 mb-md-4">
+      
+                <!-- Links -->
+                <h5>Useful links</h5>
+                <hr class="color-primary mb-4 mt-0 d-inline-block mx-auto w-60">
+      
+                <ul class="list-unstyled foot-desc">
+                  <li class="mb-2">
+                    <a href="blog.html">Blog</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="products.html">Products</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="search.html">Search</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="con1.html">Contact Us</a>
+                  </li>
+                </ul>
+      
+              </div>
+              <!-- Grid column -->
+      
+              <hr class="clearfix w-100 d-md-none">
+      
+              <!-- Grid column -->
+              <div class="col-md-3 mx-auto mt-3 mt-md-0 mb-0 mb-md-4">
+      
+                <!-- Links -->
+                <h5>Contacts</h5>
+                <hr class="color-primary mb-4 mt-0 d-inline-block mx-auto w-60">
+      
+                <ul class="fa-ul foot-desc ml-4">
+                  <li class="mb-2"><span class="fa-li"><i class="far fa-map"></i></span>India, Avenue Street 10
+                  </li>
+                  <li class="mb-2"><span class="fa-li"><i class="fas fa-phone-alt"></i></span>123 456 7890</li>
+                  <li class="mb-2"><span class="fa-li"><i class="far fa-envelope"></i></span>company@example.com</li>
+                  <li><span class="fa-li"><i class="far fa-clock"></i></span>Monday - Friday: 10-17</li>
+                </ul>
+      
+              </div>
+              <!-- Grid column -->
+      
+            </div>
+            <!-- Grid row -->
+      
+          </div>
+          <!-- Footer Links -->
+      
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="#"> muskansailyvanshika.com</a>
+          </div>
+          <!-- Copyright -->
+      
+        </footer>
+    </body>
+</html>
